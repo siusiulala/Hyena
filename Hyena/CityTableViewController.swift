@@ -33,12 +33,11 @@ class CityTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        self.loadCoreData()
-//        if(spotArray.count==0)
-//        {
-//            self.loadWebData()
-//        }
-         self.loadWebData()
+        self.loadCoreData()
+        if(spotArray.count==0)
+        {
+            self.loadWebData()
+        }
     }
 
     override func didReceiveMemoryWarning() {

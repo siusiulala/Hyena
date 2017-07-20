@@ -109,8 +109,8 @@
 				AF7A684F1F1F03930036BB72 /* WebViewController.swift */,
 				AF7A68511F1F0CCE0036BB72 /* WalkthroughContentViewController.swift */,
 				AF7A68531F1F0E670036BB72 /* WalkthroughPageViewController.swift */,
-				AFCB46441F1F46C70012A398 /* CityModel.xcdatamodeld */,
 				AFC7ADD91F207CD60051E023 /* SettingTableViewController.swift */,
+				AFCB46441F1F46C70012A398 /* CityModel.xcdatamodeld */,
 			);
 			path = Hyena;
 			sourceTree = "<group>";
