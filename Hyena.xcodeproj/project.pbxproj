@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832C3B3DA2AE4C191102715F /* Pods_Hyena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9202A9E66421E7CB9E9AC766 /* Pods_Hyena.framework */; };
+		AF7A68431F1EF3950036BB72 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7A68421F1EF3950036BB72 /* Map.storyboard */; };
+		AF7A68451F1EF51C0036BB72 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A68441F1EF51C0036BB72 /* CityTableViewController.swift */; };
+		AF7A68471F1EFAC00036BB72 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A68461F1EFAC00036BB72 /* CityDetailViewController.swift */; };
+		AF7A684A1F1EFD090036BB72 /* City.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7A68481F1EFD090036BB72 /* City.storyboard */; };
+		AF7A684E1F1F029E0036BB72 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7A684C1F1F029E0036BB72 /* Web.storyboard */; };
+		AF7A68501F1F03930036BB72 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A684F1F1F03930036BB72 /* WebViewController.swift */; };
+		AF7A68521F1F0CCE0036BB72 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A68511F1F0CCE0036BB72 /* WalkthroughContentViewController.swift */; };
+		AF7A68541F1F0E670036BB72 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7A68531F1F0E670036BB72 /* WalkthroughPageViewController.swift */; };
+		AF7FF4841F1E076400CF4A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7FF4831F1E076400CF4A14 /* AppDelegate.swift */; };
+		AF7FF4891F1E076400CF4A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7FF4871F1E076400CF4A14 /* Main.storyboard */; };
+		AF7FF48B1F1E076400CF4A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7FF48A1F1E076400CF4A14 /* Assets.xcassets */; };
+		AF7FF48E1F1E076400CF4A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7FF48C1F1E076400CF4A14 /* LaunchScreen.storyboard */; };
+		AF7FF4971F1E077F00CF4A14 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7FF4961F1E077F00CF4A14 /* MapKit.framework */; };
+		AF7FF4991F1E107E00CF4A14 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7FF4981F1E107E00CF4A14 /* MapViewController.swift */; };
+		AFC7ADDA1F207CD60051E023 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC7ADD91F207CD60051E023 /* SettingTableViewController.swift */; };
+		AFC7ADDD1F2086520051E023 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC7ADDB1F2086520051E023 /* Setting.storyboard */; };
+		AFCB46461F1F46C70012A398 /* CityModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFCB46441F1F46C70012A398 /* CityModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F0B8F2662F5B65AEB0FD648 /* Pods-Hyena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyena.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hyena/Pods-Hyena.release.xcconfig"; sourceTree = "<group>"; };
+		9202A9E66421E7CB9E9AC766 /* Pods_Hyena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hyena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7A68421F1EF3950036BB72 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		AF7A68441F1EF51C0036BB72 /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		AF7A68461F1EFAC00036BB72 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		AF7A68491F1EFD090036BB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/City.storyboard; sourceTree = "<group>"; };
+		AF7A684D1F1F029E0036BB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Web.storyboard; sourceTree = "<group>"; };
+		AF7A684F1F1F03930036BB72 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		AF7A68511F1F0CCE0036BB72 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		AF7A68531F1F0E670036BB72 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		AF7FF4801F1E076400CF4A14 /* Hyena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hyena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7FF4831F1E076400CF4A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF7FF4881F1E076400CF4A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF7FF48A1F1E076400CF4A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7FF48D1F1E076400CF4A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7FF48F1F1E076400CF4A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7FF4961F1E077F00CF4A14 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF7FF4981F1E107E00CF4A14 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AFC7ADD91F207CD60051E023 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		AFC7ADDC1F2086520051E023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Setting.storyboard; sourceTree = "<group>"; };
+		AFCB46451F1F46C70012A398 /* CityModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CityModel.xcdatamodel; sourceTree = "<group>"; };
+		FA5B95D471BD9CBDAF7EBDAC /* Pods-Hyena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hyena/Pods-Hyena.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7FF47D1F1E076400CF4A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7FF4971F1E077F00CF4A14 /* MapKit.framework in Frameworks */,
+				832C3B3DA2AE4C191102715F /* Pods_Hyena.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7A684B1F1EFD460036BB72 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AF7FF4871F1E076400CF4A14 /* Main.storyboard */,
+				AFC7ADDB1F2086520051E023 /* Setting.storyboard */,
+				AF7A684C1F1F029E0036BB72 /* Web.storyboard */,
+				AF7A68481F1EFD090036BB72 /* City.storyboard */,
+				AF7A68421F1EF3950036BB72 /* Map.storyboard */,
+				AF7FF48C1F1E076400CF4A14 /* LaunchScreen.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		AF7FF4771F1E076300CF4A14 = {
+			isa = PBXGroup;
+			children = (
+				AF7FF4821F1E076400CF4A14 /* Hyena */,
+				AF7FF4811F1E076400CF4A14 /* Products */,
+				AF7FF4951F1E077F00CF4A14 /* Frameworks */,
+				C10B79F08E496F4F24CBDFFD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7FF4811F1E076400CF4A14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7FF4801F1E076400CF4A14 /* Hyena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7FF4821F1E076400CF4A14 /* Hyena */ = {
+			isa = PBXGroup;
+			children = (
+				AF7A684B1F1EFD460036BB72 /* storyboards */,
+				AF7FF4831F1E076400CF4A14 /* AppDelegate.swift */,
+				AF7FF48A1F1E076400CF4A14 /* Assets.xcassets */,
+				AF7FF48F1F1E076400CF4A14 /* Info.plist */,
+				AF7FF4981F1E107E00CF4A14 /* MapViewController.swift */,
+				AF7A68441F1EF51C0036BB72 /* CityTableViewController.swift */,
+				AF7A68461F1EFAC00036BB72 /* CityDetailViewController.swift */,
+				AF7A684F1F1F03930036BB72 /* WebViewController.swift */,
+				AF7A68511F1F0CCE0036BB72 /* WalkthroughContentViewController.swift */,
+				AF7A68531F1F0E670036BB72 /* WalkthroughPageViewController.swift */,
+				AFCB46441F1F46C70012A398 /* CityModel.xcdatamodeld */,
+				AFC7ADD91F207CD60051E023 /* SettingTableViewController.swift */,
+			);
+			path = Hyena;
+			sourceTree = "<group>";
+		};
+		AF7FF4951F1E077F00CF4A14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7FF4961F1E077F00CF4A14 /* MapKit.framework */,
+				9202A9E66421E7CB9E9AC766 /* Pods_Hyena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10B79F08E496F4F24CBDFFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B95D471BD9CBDAF7EBDAC /* Pods-Hyena.debug.xcconfig */,
+				4F0B8F2662F5B65AEB0FD648 /* Pods-Hyena.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7FF47F1F1E076400CF4A14 /* Hyena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7FF4921F1E076400CF4A14 /* Build configuration list for PBXNativeTarget "Hyena" */;
+			buildPhases = (
+				6A1A6B686678BAA694A5A15B /* [CP] Check Pods Manifest.lock */,
+				AF7FF47C1F1E076400CF4A14 /* Sources */,
+				AF7FF47D1F1E076400CF4A14 /* Frameworks */,
+				AF7FF47E1F1E076400CF4A14 /* Resources */,
+				8A71CCC64D514849E7870844 /* [CP] Embed Pods Frameworks */,
+				9E67A5CA80152E1654D96628 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hyena;
+			productName = Hyena;
+			productReference = AF7FF4801F1E076400CF4A14 /* Hyena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7FF4781F1E076400CF4A14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kbala;
+				TargetAttributes = {
+					AF7FF47F1F1E076400CF4A14 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M6YNSGHTE9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AF7FF47B1F1E076400CF4A14 /* Build configuration list for PBXProject "Hyena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7FF4771F1E076300CF4A14;
+			productRefGroup = AF7FF4811F1E076400CF4A14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7FF47F1F1E076400CF4A14 /* Hyena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF7FF47E1F1E076400CF4A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7FF48E1F1E076400CF4A14 /* LaunchScreen.storyboard in Resources */,
+				AF7FF48B1F1E076400CF4A14 /* Assets.xcassets in Resources */,
+				AFC7ADDD1F2086520051E023 /* Setting.storyboard in Resources */,
+				AF7FF4891F1E076400CF4A14 /* Main.storyboard in Resources */,
+				AF7A684A1F1EFD090036BB72 /* City.storyboard in Resources */,
+				AF7A68431F1EF3950036BB72 /* Map.storyboard in Resources */,
+				AF7A684E1F1F029E0036BB72 /* Web.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A1A6B686678BAA694A5A15B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A71CCC64D514849E7870844 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hyena/Pods-Hyena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E67A5CA80152E1654D96628 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hyena/Pods-Hyena-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7FF47C1F1E076400CF4A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7A68451F1EF51C0036BB72 /* CityTableViewController.swift in Sources */,
+				AF7A68501F1F03930036BB72 /* WebViewController.swift in Sources */,
+				AFCB46461F1F46C70012A398 /* CityModel.xcdatamodeld in Sources */,
+				AF7A68541F1F0E670036BB72 /* WalkthroughPageViewController.swift in Sources */,
+				AF7A68521F1F0CCE0036BB72 /* WalkthroughContentViewController.swift in Sources */,
+				AF7FF4991F1E107E00CF4A14 /* MapViewController.swift in Sources */,
+				AFC7ADDA1F207CD60051E023 /* SettingTableViewController.swift in Sources */,
+				AF7FF4841F1E076400CF4A14 /* AppDelegate.swift in Sources */,
+				AF7A68471F1EFAC00036BB72 /* CityDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF7A68481F1EFD090036BB72 /* City.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7A68491F1EFD090036BB72 /* Base */,
+			);
+			name = City.storyboard;
+			sourceTree = "<group>";
+		};
+		AF7A684C1F1F029E0036BB72 /* Web.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7A684D1F1F029E0036BB72 /* Base */,
+			);
+			name = Web.storyboard;
+			sourceTree = "<group>";
+		};
+		AF7FF4871F1E076400CF4A14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7FF4881F1E076400CF4A14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF7FF48C1F1E076400CF4A14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7FF48D1F1E076400CF4A14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC7ADDB1F2086520051E023 /* Setting.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC7ADDC1F2086520051E023 /* Base */,
+			);
+			name = Setting.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7FF4901F1E076400CF4A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7FF4911F1E076400CF4A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7FF4931F1E076400CF4A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5B95D471BD9CBDAF7EBDAC /* Pods-Hyena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6YNSGHTE9;
+				INFOPLIST_FILE = Hyena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siusiulala.Hyena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF7FF4941F1E076400CF4A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0B8F2662F5B65AEB0FD648 /* Pods-Hyena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6YNSGHTE9;
+				INFOPLIST_FILE = Hyena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siusiulala.Hyena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7FF47B1F1E076400CF4A14 /* Build configuration list for PBXProject "Hyena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7FF4901F1E076400CF4A14 /* Debug */,
+				AF7FF4911F1E076400CF4A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7FF4921F1E076400CF4A14 /* Build configuration list for PBXNativeTarget "Hyena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7FF4931F1E076400CF4A14 /* Debug */,
+				AF7FF4941F1E076400CF4A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFCB46441F1F46C70012A398 /* CityModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFCB46451F1F46C70012A398 /* CityModel.xcdatamodel */,
+			);
+			currentVersion = AFCB46451F1F46C70012A398 /* CityModel.xcdatamodel */;
+			path = CityModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF7FF4781F1E076400CF4A14 /* Project object */;
+}

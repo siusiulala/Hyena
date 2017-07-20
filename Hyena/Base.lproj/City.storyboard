@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6Gt-Zp-8eX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="82v-xa-kut">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Map" id="cYx-bL-qtx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fte-Rb-7h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2637" y="608"/>
+        </scene>
+        <!--Hot Spot-->
+        <scene sceneID="LmU-ck-vx2">
+            <objects>
+                <tableViewController id="d27-BB-uDy" customClass="CityTableViewController" customModule="Hyena" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hAb-Yb-1RE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cityCell" id="dZR-07-L7L">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dZR-07-L7L" id="otq-vH-Vah">
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="cYx-bL-qtx" kind="show" identifier="cityDetail" id="hX7-aq-Ejo"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="d27-BB-uDy" id="L9x-3k-1EB"/>
+                            <outlet property="delegate" destination="d27-BB-uDy" id="c9T-OR-QZi"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Hot Spot" id="8eS-es-Pcy">
+                        <barButtonItem key="backBarButtonItem" title=" " id="13e-vR-jeY"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tView" destination="hAb-Yb-1RE" id="JdX-Px-jCE"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjK-yb-ZkX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2084" y="608.54572713643188"/>
+        </scene>
+        <!--Spot-->
+        <scene sceneID="D9n-bE-Bok">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Gt-Zp-8eX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Spot" image="if_paris_1076701" id="h8j-Ri-6yF"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="kJn-dF-AQS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d27-BB-uDy" kind="relationship" relationship="rootViewController" id="2gI-t1-7MD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w2W-SH-iOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144.8" y="608.54572713643188"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="if_paris_1076701" width="24" height="24"/>
+    </resources>
+</document>

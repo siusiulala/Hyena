@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TTB-zY-hJj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web View Controller-->
+        <scene sceneID="r42-2n-ZuN">
+            <objects>
+                <viewController id="Jz0-f6-jYl" customClass="WebViewController" customModule="Hyena" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lro-7d-acl"/>
+                        <viewControllerLayoutGuide type="bottom" id="ksn-Iz-vGc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gZN-xf-mRu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RaG-5G-0I4"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uli-Rd-FOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1898.4000000000001" y="1016.9415292353824"/>
+        </scene>
+        <!--Web-->
+        <scene sceneID="YAD-zO-4R1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TTB-zY-hJj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Web" image="if_Internet_Line-07_1587502" id="rRw-tC-xIo"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="5gY-Dj-g7y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Jz0-f6-jYl" kind="relationship" relationship="rootViewController" id="ZuT-nI-pzJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KD6-Zr-KwT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="959.20000000000005" y="1016.9415292353824"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="if_Internet_Line-07_1587502" width="24" height="24"/>
+    </resources>
+</document>
