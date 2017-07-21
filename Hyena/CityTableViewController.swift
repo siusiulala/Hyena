@@ -37,7 +37,9 @@ class CityTableViewController: UITableViewController {
         if(spotArray.count==0)
         {
             self.loadWebData()
+//            self.loadWebData2() //test chinese content
         }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -68,6 +70,40 @@ class CityTableViewController: UITableViewController {
                         if let tmp = recordJson["Tel"].string { tmpSpot.tel = tmp }
                         if let tmp = recordJson["Add"].string { tmpSpot.addr = tmp }
                         if let tmp = recordJson["Zipcode"].string { tmpSpot.zipcode = tmp }
+                        self.spotArray.append(tmpSpot)
+                        
+                        // save data to DB
+                        appDelegate.saveContext()
+                    }
+                }
+                self.tableView.reloadData()
+            }
+            
+        }
+        print("Data loaded!")
+        
+    }
+    
+    func loadWebData2()
+    {
+        print("Load data...")
+        Alamofire.request( "http://data.ntpc.gov.tw/od/data/api/6DCFF24A-838C-40FB-A9DF-F1160AFAFE84?$format=json") .responseJSON { response in
+            
+            let swiftyJsonVar = JSON(response.result.value!)
+            if let records = swiftyJsonVar.arrayObject {
+                for record in records
+                {
+                    let recordJson = JSON(record)
+                    var tmpSpot: SpotMO!
+                    if let appDelegate = (UIApplication.shared.delegate as? AppDelegate)
+                    {
+                        tmpSpot = SpotMO(context: appDelegate.persistentContainer.viewContext) //宣告實體來儲存json資料
+                        if let tmp = recordJson["name"].string { tmpSpot.name = tmp }
+                        else {
+                            continue
+                        } // name is necessary
+                        
+                        if let tmp = recordJson["district"].string { tmpSpot.desc = tmp }
                         self.spotArray.append(tmpSpot)
                         
                         // save data to DB
