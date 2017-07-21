@@ -168,7 +168,6 @@
 				TargetAttributes = {
 					AF7FF47F1F1E076400CF4A14 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = M6YNSGHTE9;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -424,10 +423,10 @@
 			baseConfigurationReference = FA5B95D471BD9CBDAF7EBDAC /* Pods-Hyena.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M6YNSGHTE9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Hyena/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = siusiulala.Hyena;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Hyena;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -438,10 +437,10 @@
 			baseConfigurationReference = 4F0B8F2662F5B65AEB0FD648 /* Pods-Hyena.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M6YNSGHTE9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Hyena/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = siusiulala.Hyena;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Hyena;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
